@@ -1,1 +1,14 @@
+For ubuntu
+apt update -y
+apt get-install git (to install git)
+git --version (shows the version)
+sudo su (to go to root directory)
+mkdir gitdemo (to create folder)
+ls -la ( You will not see .git)
+cd gitdemo
+git init
+ls -la (now You will see .git)
+git clone (clone git remote repository url)
+git branch (shows all the available branch)
+git checkout -b branch1 (to create new branch and point and work on that branch)
 
